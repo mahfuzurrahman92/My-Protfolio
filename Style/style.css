@@ -40,10 +40,14 @@ nav ul li {
     /* text-decoration: none; */
 }
 /* common styles */
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: #FFF8F3;
 
 }
+
 .dark-3{
     color: #757575;
 }
@@ -114,3 +118,22 @@ main{
     display: flex;
     justify-content: space-around;
 }
+/* what  i do */
+
+/* technology */
+.tecnology{
+    margin-top: 10px;
+    gap: 24px;
+    /* justify-content: space-around; */
+    display: flex;
+}
+.tec-item{
+    /* border: 2px solid red; */
+    /* gap: 24px; */
+    box-shadow: 0px 6px 50px 0px #D1D1D1;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
