@@ -160,3 +160,31 @@ main{
     width: 300px;
     
 }
+/* button resume */
+.btn-res{
+    margin-top: 10px;
+    text-align: center;
+}
+/* foot styles */
+.foot{
+    margin-top: 10px;
+    background-color: #FFF8F3;
+    /* align-items: center; */
+    justify-content: space-around;
+    display: flex;
+}
+.foot-cont label{
+    border-radius: 5px;
+    margin-top: 10px;
+     display: block;
+}
+.foot-cont{
+    margin: 5px auto;
+    /* width: fit-content; */
+}
+.foot-cont .foot-p{
+   max-width: 250px;  
+}
+#mes{
+    height: 100px;
+}
