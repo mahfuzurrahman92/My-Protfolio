@@ -143,3 +143,20 @@ main{
 
 }
 
+/* resume section */
+/* res{
+ display: flex;
+}. */
+.res-title{
+    font-weight: bold;
+}
+.res{
+    /* align-items: center; */
+    justify-content: space-around;
+
+    display: flex;
+}
+.rc{
+    width: 300px;
+    
+}
