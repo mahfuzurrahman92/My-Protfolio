@@ -192,3 +192,12 @@ main{
     background-color: #FD6E0A;
     border-radius: 5px;
 } */
+ /* resposive media */
+ .hide{
+    display: none;
+ }
+ @media screen and (max-width: 576px) {
+    .tecnology , nav , .foot , .res , .about-items {
+        flex-direction: column;
+    }
+ }
