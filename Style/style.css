@@ -82,6 +82,10 @@ nav li a{
     justify-content: space-between;
     margin: 0 35px 0 230px;
     display: flex;
+
+}
+.banner div{
+    flex: 1;
 }
 .banner-cont{
     max-width: 580px;
@@ -197,7 +201,34 @@ main{
     display: none;
  }
  @media screen and (max-width: 576px) {
-    .tecnology , nav , .foot , .res , .about-items {
+    .tecnology ,
+     nav , .foot ,
+      .res ,
+      .banner ,
+      ul ,
+       .about-items {
         flex-direction: column;
     }
+    .banner{
+        margin-left: 100px;
+        margin-right: 10px;
+        /* text-align: center; */
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-title{
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    
+    .banner-cont{
+    max-width: 100px;
+}
+ .btn{
+    margin-bottom: 5px;
+ }
+    .ban-pro-pic{
+    width: 250px;
+}
  }
